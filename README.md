@@ -1,4 +1,4 @@
-# Text and Audio Summarizer
+# SumaScribe
 
 This project processes and summarizes text and audio files using a pre-trained Llama2 model and Whisper speech-to-text technology. It handles multiple input formats and organizes summaries into a structured Word document.
 
