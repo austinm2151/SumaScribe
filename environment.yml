@@ -1,0 +1,22 @@
+name: SumaScribe
+channels:
+  - nvidia
+  - conda-forge
+  - pytorch-nightly
+  - defaults
+dependencies:
+  - python=3.10.9
+  - pytorch
+  - accelerate
+  - transformers
+  - torchvision
+  - torchaudio
+  - pytorch-cuda=12.1
+  - ffmpeg
+  - pip
+  - pip:
+    - pymupdf
+    - pydub
+    - python-docx
+    - keyboard
+    - openai-whisper
